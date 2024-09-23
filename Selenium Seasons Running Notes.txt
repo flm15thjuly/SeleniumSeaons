@@ -1,0 +1,88 @@
+*******************************
+Selenium Season -1 
+********************************
+23rd September Monday
+
+
+https://www.selenium.dev/
+
+Selenium automates browsers. That's it!
+
+
+.NET/C#
+Ruby
+Java
+JavaScript
+Python
+
+
+Automation --> conversion of TC's to Test Script using some tool or program (API)
+
+Selenium is an API to automate Web apps .
+
+How to download and add jar to java project ?
+
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+Latest 4.25.0 
+
+
+Longterm stable version 3.141.59 
+
+selenium-server-standalone-3.141.59.jar
+
+right click on project --> Build path --> Configure build path --> 
+Click on "Libraries" --> Click on "classpath" --> click on "add external jars"
+browse to the location where you have downloaded the jar 
+select the jar or jars 
+click oprn
+click apply
+click apply and close 
+
+ChromeDriver(C)
+
+ChromeDriver()
+ChromeDriver(ChromeDriverService)
+ChromeDriver(ChromeDriverService, ChromeOptions)
+ChromeDriver(ChromeOptions)
+
+
+Exception in thread "main" java.lang.IllegalStateException:
+ The path to the driver executable must be set by the webdriver.chrome.driver system property; 
+ for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+
+chrome browser version : 129 
+
+
+
+https://github.com/bonigarcia/webdrivermanager
+
+https://github.com/bonigarcia/webdrivermanager/releases/tag/webdrivermanager-5.9.2
+
+selenium-server-4.13.0.jar
+
+????????????????????????????????????
+Assisgnment 1
+
+Use the 3 approaches to launch 
+
+approach 1 : 
+
+selenium 3.141.59
+
+approach 2:
+
+selenium 3.141.59 + webdriver manager 
+
+approach 3 :
+
+selenium 4.13.0
+
+firefox 
+and Edge browser 
+
+
+???????????????????????????????????????
