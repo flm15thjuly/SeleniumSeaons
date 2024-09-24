@@ -86,3 +86,76 @@ and Edge browser
 
 
 ???????????????????????????????????????
+
+********************************
+24th September Tuesday
+********************************
+
+---------------------------------------
+Methods in WebDriver (13) + 5 sub interfaces 
+
+Navigation
+Options
+TargetLocator
+Timeouts
+Window
+
+-----------------------------------
+
+findElement(By)
+findElements(By)
+
+
+
+
+
+
+navigate()
+
+switchTo()
+
+--------------------------------------------------------------------
+get(String):void 
+this is used to launch web app whose URL is given in form of String
+---------------------------------------------------------------------
+close():void 
+this is used to close a window a tab on which webdriver focus is 
+----------------------------------------------------------------------
+quit():void 
+this is used to close all the windows or tabs opened during that session
+------------------------------------------------------------------------
+Q : diff b/w close and quit 
+
+1) close will close only one  window a tab on which webdriver focus is 
+   quit will close all the windows or tabs opened during that session
+2) close will not kill the chromedriver.exe 
+   quit will kill the chromedriver.exe 
+--------------------------------------------------------------------------
+getTitle():String 
+this will return the title of the page/window/tab in form of String 
+---------------------------------------------------------------------------
+getCurrentUrl():String
+this will return the url present in address bar in form of String 
+----------------------------------------------------------------------------
+getPageSource():String 
+this will return the page source (html code) in form of String 
+----------------------------------------------------------------------------
+getWindowHandle():String 
+
+this will return the handle or window id of window a tab on which webdriver focus is
+500F4997F1E5669357FAA76964103101
+
+------------------------------------------------------------------------------
+getWindowHandles():Set<String>
+this will return the window ids of all the windows or tabs opened till point 
+[398488ADA036BC09C799D439C32E27F8, 7F73494B4AA8DC65FA33DC5F7CA7C0EE]
+---------------------------------------------------------------------------------
+manage():Options
+
+used to manage following things
+- window sizes 
+   maximize ==> driver.manage().window.maximize();
+- cookies 
+- waits or synchronization
+
+----------------------------------------------------------------------------------------
