@@ -101,19 +101,6 @@ Timeouts
 Window
 
 -----------------------------------
-
-findElement(By)
-findElements(By)
-
-
-
-
-
-
-navigate()
-
-switchTo()
-
 --------------------------------------------------------------------
 get(String):void 
 this is used to launch web app whose URL is given in form of String
@@ -154,8 +141,109 @@ manage():Options
 
 used to manage following things
 - window sizes 
-   maximize ==> driver.manage().window.maximize();
-- cookies 
+   maximize ==> driver.manage().window().maximize();
+- cookies handling 
 - waits or synchronization
 
 ----------------------------------------------------------------------------------------
+
+********************************
+25th September Wednesday
+********************************
+
+navigate():Navigation
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+----------------------------------------------------
+
+switchTo():TargetLocator
+
+this is used to switch the webdriver focus from 
+
+-> page/window/tab  to another page/window/tab
+-> page to frame 
+-> frame to page
+-> page to alert 
+
+
+activeElement()
+alert()
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+newWindow(WindowType)
+parentFrame()
+window(String)
+
+----------------------------------------------------------------
+
+findElement(By):WebElement 
+
+
+By class methods or Locators (8)
+
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+HTML Terminologies
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"  ...attributen="value of attributen">
+
+<tagName attribute1="value of attribute1"  ...attributen="value of attributen">text on element</tagName>
+
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="s9449">
+
+<a href="Register.php">New User Register Here</a>
+
+
+Based on attributes (3) :
+
+id(String)
+name(String)
+className(String)
+
+
+Based on linktext of links :
+
+hint : for links the tagname is a , anchor tag 
+
+linkText(String)
+
+partialLinkText(String)
+
+
+Based on combintaion of tagname and/or attributes and/or text :
+
+xpath(String) 
+
+//*[@id="username"]
+/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[4]/td/a/img
+//input[@id='username']
+
+
+cssSelector(String):
+
+tagName(String)
+
+
+
+--------------------------------------------------------------------
+
+findElements(By)
+
+
+
+
+
