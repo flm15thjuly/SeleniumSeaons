@@ -236,14 +236,83 @@ xpath(String)
 cssSelector(String):
 
 tagName(String)
+used for multiple elements 
 
 
 
 --------------------------------------------------------------------
 
+
+
+********************************
+26th September Thursday
+********************************
+
+
+findElements(By):List<WebElement>
+
+
+*********************************************************
+MEthods in WebElement (16) + 5
+**********************************************************
+
+
+
+findElement(By)
 findElements(By)
 
 
+getLocation()
+getRect()
+getSize()
+getTagName()
 
+isDisplayed()
+isEnabled()
+isSelected()
 
+submit()
+
+-------------------------
+getAccessibleName()
+getAriaRole()
+getDomAttribute(String)
+getDomProperty(String)
+getShadowRoot()
+
+---------------------------------------------------------------
+sendKeys(CharSequence...):void
+this is used to type something on textbox ,textarea etc ..
+---------------------------------------------------------------
+
+click():void 
+
+this is used to click images , button , link etc ..
+
+-------------------------------------------------------------------
+clear():void 
+
+this is used to clear already existing text or place holder in textbox or textarea 
+
+-----------------------------------------------------------------------
+
+getText(): String
+
+this is to retrieve the text present on element (means text in betweeen > and < )
+
+----------------------------------------------------------------------------
+
+getAttribute(String):String 
+
+case 1: attribute having value 
+o/p : value of attribute 
+
+case 2: no attribute 
+o/p : null
+
+case 3: attribute but no value 
+o/p: blank or true (this will be discussed in checkbox and radio button)
+
+----------------------------------------------------------------------------
+getCssValue(String):String 
 

@@ -48,7 +48,7 @@ public class WebdriverMethods3 {
 		System.out.println(driver.getTitle());
 		
 		
-		//driver.quit();
+		driver.quit();
 		
 
 	}
