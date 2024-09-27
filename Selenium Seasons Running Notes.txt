@@ -258,20 +258,15 @@ MEthods in WebElement (16) + 5
 
 
 
-findElement(By)
-findElements(By)
 
 
-getLocation()
-getRect()
-getSize()
-getTagName()
 
-isDisplayed()
-isEnabled()
-isSelected()
 
-submit()
+
+
+
+
+
 
 -------------------------
 getAccessibleName()
@@ -316,3 +311,55 @@ o/p: blank or true (this will be discussed in checkbox and radio button)
 ----------------------------------------------------------------------------
 getCssValue(String):String 
 
+
+
+
+********************************
+26th September Friday
+********************************
+
+
+------------------------------------------------
+getLocation():Point
+
+to get the x,y coordinates of a left most corner of WebElement 
+
+
+getX():int
+getY():int 
+
+---------------------------------------------------
+getSize():Dimension
+
+getHeight():int
+getWidth():int 
+
+getRect():Rectangle
+
+getX():int
+getY():int 
+getHeight():int
+getWidth():int 
+
+--------------------------------------------------------------
+
+isDisplayed():boolean    ==> to check element is visible on Page 
+isEnabled():boolean   ==> to check element is enable (so that you can do some action like click etc ..)
+isSelected():boolean  ==> to check whether elements like dropdown options , radio button , check boxes etc ..
+
+
+---------------------------------------------------------
+
+getTagName(): String 
+
+
+------------------------------------------------------------
+
+submit():void
+
+-----------------------------------------------------------------
+
+findElement(By):WebElement
+findElements(By):List<WebElement>
+
+---------------------------------------------------------
