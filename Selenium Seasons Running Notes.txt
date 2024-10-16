@@ -478,4 +478,33 @@ select your date of birth
 
 ????????????????????????????????????????????????????????????
 
+*****************************************************
+Selenium Season -2 
+*****************************************************
 
+
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+<a href="Register.php">New User Register Here</a>
+
+
+<a href="mailto:info@adactin.com">info@adactin.com</a>
+
+to collect all links in a page use locator tagname = a 
+
+findElements(By.tagName("a")):List<WebElement>
+
+
+Exception in thread "main" org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=129.0.6668.100)
+  
+  
+  
+StaleElementReferenceException  
+
+Reason : because of chnage in DOM , the references to WebElement gets changes and old references wont work 
+
+Solution : ReInitialize the WebElement or list of WebElement
+
+//*[@id="navFooter"]/div[1]/div/div[5]

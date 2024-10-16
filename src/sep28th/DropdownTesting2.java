@@ -16,6 +16,7 @@ public class DropdownTesting2 {
 		
 		driver.manage().window().maximize();
 		
+		
 		/*
 		 * WebElement drop= driver.findElement(By.id("searchDropdownBox"));
 		 * 
@@ -23,6 +24,7 @@ public class DropdownTesting2 {
 		 * 
 		 * s1.selectByIndex(12);
 		 */
+		 
 		
 		//new Select(driver.findElement(By.id("searchDropdownBox"))).selectByIndex(12);
 		
