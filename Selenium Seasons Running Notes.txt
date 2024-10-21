@@ -648,3 +648,131 @@ hint : write it in ValidateLogin class
 
 
 ??????????????????????????????????????????????????
+
+******************************************************************************
+Xpath writing Techniques
+*********************************************************************
+Xpath XML path is a query lang to identify the XML nodes 
+
+XML is implementation of HTML 
+
+
+Xpath or cssSelector are most powerful ways to idenfity any element in HTML 
+
+
+											Xpath
+											
+											
+					absolute								relative
+
+				from root  								    from any node in page 
+				/html 										//
+				
+				
+	
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input	
+
+
+relative xpath :
+
+1) xpath using tagname and attribute/s
+
+syntax 
+
+//tagname[@attribute='value of attribute']
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="497404">
+
+//input[@name='username']
+
+//input[@name='login']
+
+
+
+<input name="username" type="text" class="reg_input" id="username" value="" maxlength="20" fdprocessedid="2wcyw4">
+
+<input oninput="validate(this)" name="full_name" type="text" class="reg_input" id="full_name" value="" maxlength="50" fdprocessedid="ft9nrh">
+
+<input oninput="validate(this)" name="email_add" type="text" class="reg_input" id="email_add" value="" maxlength="50" fdprocessedid="tpkwk9">
+
+<input type="text" name="captcha" id="captcha-form" maxlength="8" class="reg_input" value="" fdprocessedid="jlr47l">
+				
+//input[@type='text']				 1 0f 4 
+
+//input[@type='text' and @name='full_name']				
+						
+											
+2) xpath using tagname and text 
+
+syntax
+
+//tagname[text()='text in between > and <'
+
+<a href="Register.php">New User Register Here</a>
+
+//a[text()='New User Register Here']
+
+
+//h2[text()='See personalized recommendations']
+										
+											
+											
+3) xpath using contains function '
+
+
+syntax  1
+
+//tagname[contains(@attribute,'value or subset of value of attribute')]
+
+
+<img src="img/ios-button.png">
+
+//img[@src='img/ios-button.png']
+
+//img[contains(@src,'ios-button')]
+
+
+syntax  2
+
+//tagname[contains(text(),'text or subset of text present on element')]
+
+//span[text()='Minimum 50% off | Home, kitchen & outdoors']
+
+//span[contains(text(),'Home, kitchen & outdoors')]
+
+
+4) Xpath axes 
+
+child
+
+parent
+
+following-sibling
+
+preceding-sibling
+
+descendant
+
+ancestor 
+
+
+
+*****************************************************
+Miscellenous Actions 
+****************************************************
+
+Mouse Hover 
+
+
+Actions 
+
+Actions(WebDriver)
+
+moveToElement(WebElement)
+moveToElement(WebElement, int, int)
+
+perform():void  to execute the actions 
+
