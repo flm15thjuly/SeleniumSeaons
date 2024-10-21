@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-18T21:18:30 IST" name="Default suite" finished-at="2024-10-18T21:18:42 IST" duration-ms="11647">
+  <suite started-at="2024-10-21T21:42:22 IST" name="Default suite" finished-at="2024-10-21T21:42:40 IST" duration-ms="17796">
     <groups>
     </groups>
-    <test started-at="2024-10-18T21:18:30 IST" name="Default test" finished-at="2024-10-18T21:18:42 IST" duration-ms="11647">
-      <class name="testng.ValidateLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.ValidateLogin@6c130c45]" started-at="2024-10-18T21:18:30 IST" name="setUp" finished-at="2024-10-18T21:18:37 IST" duration-ms="7192" status="PASS">
+    <test started-at="2024-10-21T21:42:22 IST" name="Default test" finished-at="2024-10-21T21:42:40 IST" duration-ms="17796">
+      <class name="actions.MouseHover">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:22 IST" name="setUp" finished-at="2024-10-21T21:42:29 IST" duration-ms="7334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredentials()[pri:0, instance:testng.ValidateLogin@6c130c45]" started-at="2024-10-18T21:18:37 IST" name="validateLoginUsingValidCredentials" finished-at="2024-10-18T21:18:38 IST" duration-ms="1042" status="PASS">
+        <test-method signature="mouseHoverTest()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:29 IST" name="mouseHoverTest" finished-at="2024-10-21T21:42:36 IST" duration-ms="6910" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.ValidateLogin@6c130c45]" started-at="2024-10-18T21:18:38 IST" name="teardown" finished-at="2024-10-18T21:18:42 IST" duration-ms="3376" status="PASS">
+        </test-method> <!-- mouseHoverTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:36 IST" name="teardown" finished-at="2024-10-21T21:42:40 IST" duration-ms="3496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testng.ValidateLogin -->
+      </class> <!-- actions.MouseHover -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
