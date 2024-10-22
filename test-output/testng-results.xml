@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-21T21:42:22 IST" name="Default suite" finished-at="2024-10-21T21:42:40 IST" duration-ms="17796">
+  <suite started-at="2024-10-22T21:43:31 IST" name="Default suite" finished-at="2024-10-22T21:43:55 IST" duration-ms="24439">
     <groups>
     </groups>
-    <test started-at="2024-10-21T21:42:22 IST" name="Default test" finished-at="2024-10-21T21:42:40 IST" duration-ms="17796">
-      <class name="actions.MouseHover">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:22 IST" name="setUp" finished-at="2024-10-21T21:42:29 IST" duration-ms="7334" status="PASS">
+    <test started-at="2024-10-22T21:43:31 IST" name="Default test" finished-at="2024-10-22T21:43:55 IST" duration-ms="24439">
+      <class name="hanldingwindowsalertsframes.MultipleWindow2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hanldingwindowsalertsframes.MultipleWindow2@5f9b2141]" started-at="2024-10-22T21:43:31 IST" name="setUp" finished-at="2024-10-22T21:43:37 IST" duration-ms="6071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mouseHoverTest()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:29 IST" name="mouseHoverTest" finished-at="2024-10-21T21:42:36 IST" duration-ms="6910" status="PASS">
+        <test-method signature="multipleWindowsTest()[pri:0, instance:hanldingwindowsalertsframes.MultipleWindow2@5f9b2141]" started-at="2024-10-22T21:43:37 IST" name="multipleWindowsTest" finished-at="2024-10-22T21:43:52 IST" duration-ms="14989" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHoverTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:actions.MouseHover@6c130c45]" started-at="2024-10-21T21:42:36 IST" name="teardown" finished-at="2024-10-21T21:42:40 IST" duration-ms="3496" status="PASS">
+        </test-method> <!-- multipleWindowsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hanldingwindowsalertsframes.MultipleWindow2@5f9b2141]" started-at="2024-10-22T21:43:52 IST" name="teardown" finished-at="2024-10-22T21:43:55 IST" duration-ms="3320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- actions.MouseHover -->
+      </class> <!-- hanldingwindowsalertsframes.MultipleWindow2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
