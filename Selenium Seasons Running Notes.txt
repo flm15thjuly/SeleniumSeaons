@@ -874,3 +874,116 @@ NoSuchElementException:
 Reason 4: if the element is present in another tab/window
 solution 4:switch to the corresponding tab/window
 
+=======================================================
+Frames Handling 
+
+						frames 
+						
+						
+			frame					iframe 			
+			< HTML3                 >= HTML 3 
+			
+			
+			
+to switch the control to frame 
+
+driver.switchTo().
+frame(int)   ==> here int is index of frame from top to bottom of page , index starts from 0
+frame(String)  ==> here string means id or name attribute of frame or iframe 
+frame(WebElement) ==> here Webelement of frame  
+
+org.openqa.selenium.NoSuchFrameException:
+ No frame element found by name or id demo-frame
+ 
+ 
+ defaultContent(): to switch from any frame to web page 
+ parentFrame(): to switch from child frame to parent frame 
+ 
+ https://the-internet.herokuapp.com/nested_frames
+ 
+ 
+ ========================================================
+ Alert Hanlding 
+ 
+ driver.switchTo().alert();
+ 
+accept()  ==> will click ok button on alert 
+dismiss() ==> will click cancel button on alert 
+getText() :String ==> will return the text present on alert 
+sendKeys(String) ==> will enter text in textbox of alert 
+
+
+ 2 types of alert 
+ 
+ 1. simple 
+ 2. confirmation
+ 3. prompt
+ 
+
+"
+???????????????????????????????????????????????????????
+Assignment - 9
+
+go to below app
+
+https://demo.guru99.com/test/guru99home/
+
+
+Click on the image ""Jmeter Made Easy""
+
+Then a new tab will get opened 
+
+switch to that tab and print the texts in ""Top Tutorials"" module
+
+hint : 
+xpath for Top tutorials text 
+
+//p[text()='Top Tutorials']/ancestor::div[contains(@class,'wp-block-kadence-column')][1]/descendant::span[@class='kt-blocks-info-box-title']
+
+???????????????????????????????????????????????????????????????????????"
+
+
+
+"
+??????????????????????????????????????????????????????
+Assignment - 10 
+
+login to below app 
+
+https://demo.guru99.com/V4/
+
+using below credentials
+
+
+User ID :	mngr589366
+Password :	yjahunA
+
+--> cclick on ""Delete Customer""
+
+--> enter some ""Customer ID"" for e.g 123478
+
+--> click on ""Submit"" button
+
+Validate the alert contains below text ?
+Do you really want to delete this Customer?
+
+--> click on ""Ok"" in alert 
+
+
+--> Validate the alert contains below text ?
+
+Customer does not exist!!
+
+--> click on ""Ok"" in alert 
+
+????????????????????????????????????????????????????????????????"
+
+
+
+===============================================
+JavaScriptExecutor
+
+org.openqa.selenium.ElementClickInterceptedException: 
+
+element click intercepted: Element is not clickable at point (759, 2868)
+  

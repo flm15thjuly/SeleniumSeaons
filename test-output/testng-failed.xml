@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hanldingwindowsalertsframes.MultipleWindow">
+      <class name="javascriptexecutor.PepperfryApp">
         <methods>
           <include name="setUp"/>
+          <include name="scrollTest"/>
           <include name="teardown"/>
-          <include name="multipleWindowsTest"/>
         </methods>
-      </class> <!-- hanldingwindowsalertsframes.MultipleWindow -->
+      </class> <!-- javascriptexecutor.PepperfryApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
