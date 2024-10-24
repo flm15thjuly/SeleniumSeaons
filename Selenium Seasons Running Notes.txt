@@ -981,9 +981,42 @@ Customer does not exist!!
 
 
 ===============================================
-JavaScriptExecutor
+JavaScriptExecutor(I)
 
 org.openqa.selenium.ElementClickInterceptedException: 
 
 element click intercepted: Element is not clickable at point (759, 2868)
   
+  
+  
+  executeScript(String, Object...):Object 
+  
+  here String is javascript 
+  
+  e.g window.scrollBy(0, 1000);
+  
+  Object...   means the WebElement or WebElements 
+  
+  if you want execute script on no element then make it null or empty 
+  
+org.openqa.selenium.JavascriptException: javascript error: arguments[0].click is not a function
+
+===========================================================
+
+
+TakesScreenshot(I)
+
+getScreenshotAs(OutputType<X>):X
+
+
+org.openqa.selenium.OutputType<T>
+BASE64
+BYTES
+FILE
+
+===============================================================
+
+Waits 
+
+implicitWait 
+

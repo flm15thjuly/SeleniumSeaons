@@ -1,5 +1,7 @@
 package actions;
 
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -41,6 +43,11 @@ WebDriver driver;
 				  .perform();
 		
 		//driver.findElement(By.xpath("//span[text()='Paste']")).click();
+		
+			action = new Actions(driver);
+					action.keyDown(Keys.ALT).sendKeys("d").pause(3000).perform();
+					action.keyDown(Keys.ENTER).pause(3000).perform();
+					action.keyUp(Keys.ALT).keyUp(Keys.ENTER).pause(3000).perform();
 		
 	}
 	
