@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="waits.ImplictWaitDemo1">
+      <class name="radiocheck.CheckBoxDemo1">
         <methods>
-          <include name="setUp"/>
-          <include name="waitsTest"/>
+          <include name="checkboxTest3"/>
+          <include name="checkboxTest2"/>
           <include name="teardown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- waits.ImplictWaitDemo1 -->
+      </class> <!-- radiocheck.CheckBoxDemo1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

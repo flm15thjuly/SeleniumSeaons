@@ -19,7 +19,7 @@ public class AlertHandling2 {
 		driver.manage().window().maximize();
 		
 	}
-	@Test
+	@Test(description="To validate alert handling of guru99 bank")
 	public void alertTest()
 	{
 		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr589366");
