@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-25T21:41:20 IST" name="Default suite" finished-at="2024-10-25T21:42:04 IST" duration-ms="43739">
+  <suite started-at="2024-10-26T21:32:45 IST" name="Default suite" finished-at="2024-10-26T21:32:52 IST" duration-ms="7634">
     <groups>
     </groups>
-    <test started-at="2024-10-25T21:41:20 IST" name="Default test" finished-at="2024-10-25T21:42:04 IST" duration-ms="43739">
-      <class name="webtables.WebTable2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:webtables.WebTable2@223aa2f7]" started-at="2024-10-25T21:41:20 IST" name="setUp" finished-at="2024-10-25T21:41:50 IST" duration-ms="30364" status="PASS">
+    <test started-at="2024-10-26T21:32:45 IST" name="Default test" finished-at="2024-10-26T21:32:52 IST" duration-ms="7634">
+      <class name="shadowroot.ShadowRootDemo1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:shadowroot.ShadowRootDemo1@48974e45]" started-at="2024-10-26T21:32:45 IST" name="setUp" finished-at="2024-10-26T21:32:49 IST" duration-ms="4144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="webTableTest()[pri:0, instance:webtables.WebTable2@223aa2f7]" started-at="2024-10-25T21:41:50 IST" name="webTableTest" finished-at="2024-10-25T21:42:01 IST" duration-ms="10073" status="PASS">
+        <test-method signature="shadowDomTest()[pri:0, instance:shadowroot.ShadowRootDemo1@48974e45]" started-at="2024-10-26T21:32:49 IST" name="shadowDomTest" finished-at="2024-10-26T21:32:49 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webTableTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:webtables.WebTable2@223aa2f7]" started-at="2024-10-25T21:42:01 IST" name="teardown" finished-at="2024-10-25T21:42:04 IST" duration-ms="3266" status="PASS">
+        </test-method> <!-- shadowDomTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:shadowroot.ShadowRootDemo1@48974e45]" started-at="2024-10-26T21:32:49 IST" name="teardown" finished-at="2024-10-26T21:32:52 IST" duration-ms="3253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- webtables.WebTable2 -->
+      </class> <!-- shadowroot.ShadowRootDemo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

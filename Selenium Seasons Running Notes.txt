@@ -1018,5 +1018,164 @@ FILE
 
 Waits 
 
+Hard Wait 
+
+Thread.sleep(3000); ==>not prefered
+
+-----------------------------------------------------------------
 implicitWait 
 
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+only appplied ot implied for 
+
+driver.findElement statements only 
+
+-------------------------------------------------------------------------
+Explicit Wait  ==>always prefered
+
+
+Wait(I)
+	until(Function<? super F, T>)<T>:T 
+	
+here Function is nothing but ExpectedConditions	class static methods 
+	
+WebDriverWait(C)
+		WebDriverWait(WebDriver, Duration)
+		WebDriverWait(WebDriver, Duration, Duration)
+		WebDriverWait(WebDriver, Duration, Duration, Clock, Sleeper)
+----------------------------------------------------------------------------
+FluentWait (C)
+
+drawbacks of WebDriverWait
+
+1) in older version 
+
+new WebDriverWait(driver, long);
+long takes value which is always SECONDS 
+
+2) in WebDriverWait polling or checking will be done for every 500 ms 
+
+you can't chnage polling time 
+
+3) no inbuilt try catch or excpetion handling mechanism 
+
+
+
+FluentWait<T>
+	FluentWait(T)
+	FluentWait(T, Clock, Sleeper)
+	
+	
+===========================================================================
+
+Web Tables 
+
+<table 
+
+  <thead
+  <tbody
+     <tr 
+	   <td 
+	   <td
+	   :
+	   :
+	 <tr 
+        <td 
+        <td 
+
+
+								Web Tables 
+								
+								
+			static 							dynamic 
+
+
+
+
+//table/tbody/tr[1]/td[1]  //table/tbody/tr[1]/td[2]  ....//table/tbody/tr[1]/td[8]
+
+//table/tbody/tr[2]/td[1]
+
+:
+
+
+:
+
+//table/tbody/tr[36]/td[1]	
+								
+								
+String part1="//table/tbody/tr[";
+String part2="]/td[1]";
+
+===============================================
+CSSSelector writing techniques
+
+1. css using tagname and id 
+
+tagname#value of id attribute
+
+input#username
+
+2. css using tagname and class attribute 
+
+tagname.value of class attribute 
+
+3.css using tagname and other attributes 
+
+tagname[attribute='value of attribute']
+
+input[name='username']
+
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: invalid locator
+
+InvalidArgumentException
+
+Reason : In shadow root only cssSelector strategy to be used 
+
+Solution : use CSSSelector instead of xpath 
+
+
+?????????????????????????????????????????????????????
+Assignment-11
+
+https://www.salesforce.com/in/
+
+mouse hover on login 
+
+hint : use shadow dom handling 
+
+??????????????????????????????????????????????????????
+
+=============================================================
+Maven 
+
+is Project managment tool for app development 
+
+--------------------------------------------------
+Download and Configure Maven 
+
+
+https://maven.apache.org/download.cgi
+
+
+Downloading Apache Maven 3.9.9
+
+	apache-maven-3.9.9-bin.zip 
+	
+	
+Configure maven :
+
+MAVEN_HOME   D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9
+
+M2_HOME D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+path  D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+to check maven is present 
+
+
+go to cmd 
+
+mvn -verison 
